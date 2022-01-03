@@ -1,0 +1,17 @@
+{
+  "name": "inputfilter",
+  "version": "1.0.0",
+  "description": "Something which can let you know if you can save this piece of user input in your database.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoaku/InputFilter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoaku/InputFilter/issues"
+  },
+  "homepage": "https://github.com/Hoaku/InputFilter#readme"
+}
