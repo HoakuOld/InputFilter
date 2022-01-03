@@ -1,15 +1,19 @@
 {
-  "name": "inputfilter",
+  "name": "@hoaku/filter",
   "version": "1.0.0",
-  "description": "Something which can let you know if you can save this piece of user input in your database.",
+  "description": "Checks if a variable meets certain requirements, like length or if it matches regex, all in one handy function.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hoaku/InputFilter.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "input filter",
+    "filter",
+    "hoaku"
+  ],
+  "author": "Realmy",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Hoaku/InputFilter/issues"
   },

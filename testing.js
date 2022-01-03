@@ -1,7 +1,17 @@
-const filter = require("./index");
+const Filter = require("./index");
+const filter = new Filter({
+    filters: {
+        username: {
+            prefix: "USERNAME",
+            allowedTypes: ["string"],
+            minLength: 4,
+            maxLength: 30,
+            matchRegex: /^[a-zA-Z0-9_]*$/
+        }
+    }
+});
 
-console.log(filter("realmy", {
-    requiredTypes: ["string"],
+const username = "realmy!";
 
-    matchRegex: /^[a-zA-Z0-9_]*$/
-}));
+const filterResult = filter("username", username);
+console.log(filterResult);
