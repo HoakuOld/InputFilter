@@ -9,8 +9,8 @@ const filter = new Filter({
         username: {
             prefix: "USERNAME",
             allowedTypes: ["string"],
-            minLength: 4,
-            maxLength: 30,
+            minStringLength: 4,
+            maxStringLength: 30,
             matchRegex: /^[a-zA-Z0-9_]*$/
         }
     }
