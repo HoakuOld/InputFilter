@@ -1,6 +1,6 @@
 {
   "name": "@hoaku/filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if a variable meets certain requirements, like length or if it matches regex, all in one handy function.",
   "main": "index.js",
   "repository": {
