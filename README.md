@@ -1,3 +1,5 @@
+## Note: This repository has been moved to [Hoaku/Hoaku](https://github.com/Hoaku/Hoaku/tree/main/packages/filter)
+
 # Hoaku Filter
 Checks if a variable meets certain requirements, like length or if it matches regex, all in one handy function.
 
